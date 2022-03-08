@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: 20px sans-serif;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+li{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color:skyblue;
+    font-size: 30px;
+}

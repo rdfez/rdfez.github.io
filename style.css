@@ -1,19 +1,66 @@
+body {
+    margin: 0;
+}
+
 #logo {
-
-}
-
-.menu {
-
-}
-
-.photo {
-
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex: 1;
+}
+
+.block-title {
+    color:beige;
+    background-color: 212529;
+    font-family: Haettenschweiler;
+    font-size: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-text {
+    color:lightcyan;
+    font-size: 35px;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 90px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#pizza {
+    background-color: 343a40;
+    display: flex;
+    flex-direction: column;
+}
+
+#nyan {
+    background-color: 495057;
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    flex-grow: 1;
+    flex-shrink: 2;
 }
 
 .footer {
-    
+
 }

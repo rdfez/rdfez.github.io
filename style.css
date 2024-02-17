@@ -1,7 +1,9 @@
+/* Remove default margin */
 body {
     margin: 0;
 }
 
+/* Logo header */
 #logo {
     height: 150px;
     display: block;
@@ -9,19 +11,19 @@ body {
     margin-right: auto;
 }
 
+/* Page contents */
 .content {
     display: flex;
-    text-align: center;
-    vertical-align: middle;
 }
 
+/* Flexbox blocks */
 .block {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex: 1;
 }
 
+/* Section titles */
 .block-title {
     color:beige;
     background-color: 212529;
@@ -30,12 +32,18 @@ body {
     padding: 50px;
 }
 
+/* Secction texts */
 .block-text {
     color:darkslategray;
     font-size: 35px;
     font-family: Verdana;
     text-align: center;
     padding: 90px;
+}
+
+/* Previous Projects section */
+#projects-title {
+    justify-content: left;
 }
 
 h3 {
@@ -54,14 +62,17 @@ h3 {
     flex-direction: column;
 }
 
+/* Skills section */
 #skills {
     flex-direction: row-reverse;
 }
 
 #skills-title {
     background-color: 495057;
+    justify-content: left;
 }
 
+/* Skill list */
 #skills-text {
     background-color: dee2e6;
     display: flex;
@@ -69,11 +80,13 @@ h3 {
     border-spacing: 10px;
 }
 
+/* Autobiography section */
 #bio-title {
     background-color: 6c757d;
+    justify-content: right;
 }
 
 #bio-text {
     background-color: e9ecef;
-    font-family: 'Trebuchet MS';
+    font-family: 'Arial';
 }
